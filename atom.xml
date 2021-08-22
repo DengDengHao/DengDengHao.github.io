@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2021-08-21T17:02:58.686Z</updated>
+  <updated>2021-08-22T15:05:32.715Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -17,32 +17,53 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>博客功能熟悉完善</title>
-    <link href="http://example.com/2021/08/22/%E5%8D%9A%E5%AE%A2%E5%8A%9F%E8%83%BD%E7%86%9F%E6%82%89%E5%AE%8C%E5%96%84/"/>
-    <id>http://example.com/2021/08/22/%E5%8D%9A%E5%AE%A2%E5%8A%9F%E8%83%BD%E7%86%9F%E6%82%89%E5%AE%8C%E5%96%84/</id>
-    <published>2021-08-21T16:43:03.000Z</published>
-    <updated>2021-08-21T17:02:58.686Z</updated>
+    <title>8月22日学习总结</title>
+    <link href="http://example.com/2021/08/22/8%E6%9C%8822%E6%97%A5%E5%AD%A6%E4%B9%A0%E6%80%BB%E7%BB%93/"/>
+    <id>http://example.com/2021/08/22/8%E6%9C%8822%E6%97%A5%E5%AD%A6%E4%B9%A0%E6%80%BB%E7%BB%93/</id>
+    <published>2021-08-22T14:30:59.000Z</published>
+    <updated>2021-08-22T15:05:32.715Z</updated>
     
-    <content type="html"><![CDATA[<h2 id="完善"><a href="#完善" class="headerlink" title="完善"></a>完善</h2><p>一开始不知道如何使用博客的TAG与CATE功能</p><span id="more"></span><p>,不知道怎么打开文件的TAG与CATE然后放到左侧导航栏中。最初以为是_config文件中没有打开设置，后来发现原来只要在post的文件头中加入字段tag与categories，后面自定义输入内容就可以放入左侧的导航栏中。</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">---</span><br><span class="line">title: 博客功能熟悉完善</span><br><span class="line">date: 2021-08-22 00:43:03</span><br><span class="line">tags: 技术</span><br><span class="line">categories: blog</span><br><span class="line">---</span><br></pre></td></tr></table></figure>]]></content>
-    
-    
-    <summary type="html">&lt;h2 id=&quot;完善&quot;&gt;&lt;a href=&quot;#完善&quot; class=&quot;headerlink&quot; title=&quot;完善&quot;&gt;&lt;/a&gt;完善&lt;/h2&gt;&lt;p&gt;一开始不知道如何使用博客的TAG与CATE功能&lt;/p&gt;</summary>
+    <content type="html"><![CDATA[<h2 id="今日总结"><a href="#今日总结" class="headerlink" title="今日总结"></a>今日总结</h2><h2 id="政治"><a href="#政治" class="headerlink" title="政治"></a>政治</h2><p>学习了联系与发展的概念，原因与结果，必然与偶然</p><span id="more"></span><h2 id="英语"><a href="#英语" class="headerlink" title="英语"></a>英语</h2><p>翻译了一篇课文，积累了单词与翻译逻辑<br>复习的单词有：<br>leading,benefactor,prominent,presuppose,literature,craft,coherent,curricula,deprive,portray,setback,obstruct,obscure</p><h2 id="专业课"><a href="#专业课" class="headerlink" title="专业课"></a>专业课</h2><p>学习了计算机网络，开始复习传输层，学习了UDP与TCP的概念<br>传输层是为了实现应用进程之间提供服务<br>udp是面向无连接，不可靠的传输；TCP是面向连接，可靠的传输<br>学习了TCP的报文段的首部结构，各字段的含义</p>]]></content>
     
     
+    <summary type="html">&lt;h2 id=&quot;今日总结&quot;&gt;&lt;a href=&quot;#今日总结&quot; class=&quot;headerlink&quot; title=&quot;今日总结&quot;&gt;&lt;/a&gt;今日总结&lt;/h2&gt;&lt;h2 id=&quot;政治&quot;&gt;&lt;a href=&quot;#政治&quot; class=&quot;headerlink&quot; title=&quot;政治&quot;&gt;&lt;/a&gt;政治&lt;/h2&gt;&lt;p&gt;学习了联系与发展的概念，原因与结果，必然与偶然&lt;/p&gt;</summary>
     
-    <category term="blog" scheme="http://example.com/categories/blog/"/>
     
     
-    <category term="技术" scheme="http://example.com/tags/%E6%8A%80%E6%9C%AF/"/>
+    <category term="每日学习总结" scheme="http://example.com/categories/%E6%AF%8F%E6%97%A5%E5%AD%A6%E4%B9%A0%E6%80%BB%E7%BB%93/"/>
+    
+    
+    <category term="总结" scheme="http://example.com/tags/%E6%80%BB%E7%BB%93/"/>
     
   </entry>
   
   <entry>
-    <title>8月21日总结</title>
+    <title>博客功能熟悉完善</title>
+    <link href="http://example.com/2021/08/22/%E5%8D%9A%E5%AE%A2%E5%8A%9F%E8%83%BD%E7%86%9F%E6%82%89%E5%AE%8C%E5%96%84/"/>
+    <id>http://example.com/2021/08/22/%E5%8D%9A%E5%AE%A2%E5%8A%9F%E8%83%BD%E7%86%9F%E6%82%89%E5%AE%8C%E5%96%84/</id>
+    <published>2021-08-21T16:43:03.000Z</published>
+    <updated>2021-08-22T15:06:36.669Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="完善"><a href="#完善" class="headerlink" title="完善"></a>完善</h2><p>一开始不知道如何使用博客的TAG与CATE功能<span id="more"></span>,不知道怎么打开文件的TAG与CATE然后放到左侧导航栏中。最初以为是_config文件中没有打开设置，后来发现原来只要在post的文件头中加入字段tag与categories，后面自定义输入内容就可以放入左侧的导航栏中。</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">---</span><br><span class="line">title: 博客功能熟悉完善</span><br><span class="line">date: 2021-08-22 00:43:03</span><br><span class="line">tags: 技术</span><br><span class="line">categories: blog</span><br><span class="line">---</span><br></pre></td></tr></table></figure>]]></content>
+    
+    
+    <summary type="html">&lt;h2 id=&quot;完善&quot;&gt;&lt;a href=&quot;#完善&quot; class=&quot;headerlink&quot; title=&quot;完善&quot;&gt;&lt;/a&gt;完善&lt;/h2&gt;&lt;p&gt;一开始不知道如何使用博客的TAG与CATE功能</summary>
+    
+    
+    
+    <category term="技术" scheme="http://example.com/categories/%E6%8A%80%E6%9C%AF/"/>
+    
+    
+    <category term="导航栏" scheme="http://example.com/tags/%E5%AF%BC%E8%88%AA%E6%A0%8F/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>8月21日学习总结</title>
     <link href="http://example.com/2021/08/22/8%E6%9C%8821%E6%97%A5%E5%AD%A6%E4%B9%A0%E6%80%BB%E7%BB%93/"/>
     <id>http://example.com/2021/08/22/8%E6%9C%8821%E6%97%A5%E5%AD%A6%E4%B9%A0%E6%80%BB%E7%BB%93/</id>
     <published>2021-08-21T16:08:24.000Z</published>
-    <updated>2021-08-21T17:02:55.185Z</updated>
+    <updated>2021-08-22T14:30:28.162Z</updated>
     
     <content type="html"><![CDATA[<h2 id="今日总结"><a href="#今日总结" class="headerlink" title="今日总结"></a>今日总结</h2><h2 id="高数"><a href="#高数" class="headerlink" title="高数"></a>高数</h2><span id="more"></span><p>对矩阵逆矩阵的求法，抽象矩阵算式的计算与推导进行了题目练习，并且对举证的秩有了一定复习。秩是矩阵以及后面的重点，必须要以理解与练习结合。</p><h2 id="英语"><a href="#英语" class="headerlink" title="英语"></a>英语</h2><p>翻译了两篇课文，难度不大，主要是熟悉语法还有单词。</p><h2 id="专业课"><a href="#专业课" class="headerlink" title="专业课"></a>专业课</h2><p>复习了数据结构的图的存储表：邻接表法和十字链表法，了解了其原理。然后复习了图的最小生成图的普利姆算法以及克鲁斯卡尔算法，可以对其进行手工绘制最小生成图。</p>]]></content>
     
@@ -51,10 +72,10 @@
     
     
     
-    <category term="dairly" scheme="http://example.com/categories/dairly/"/>
+    <category term="每日学习总结" scheme="http://example.com/categories/%E6%AF%8F%E6%97%A5%E5%AD%A6%E4%B9%A0%E6%80%BB%E7%BB%93/"/>
     
     
-    <category term="每日" scheme="http://example.com/tags/%E6%AF%8F%E6%97%A5/"/>
+    <category term="总结" scheme="http://example.com/tags/%E6%80%BB%E7%BB%93/"/>
     
   </entry>
   
@@ -63,7 +84,7 @@
     <link href="http://example.com/2021/08/21/8%E6%9C%8820%E6%97%A5%E5%AD%A6%E4%B9%A0%E6%80%BB%E7%BB%93/"/>
     <id>http://example.com/2021/08/21/8%E6%9C%8820%E6%97%A5%E5%AD%A6%E4%B9%A0%E6%80%BB%E7%BB%93/</id>
     <published>2021-08-20T16:19:20.000Z</published>
-    <updated>2021-08-21T15:54:36.395Z</updated>
+    <updated>2021-08-22T13:46:19.796Z</updated>
     
     <content type="html"><![CDATA[<h2 id="今日总结"><a href="#今日总结" class="headerlink" title="今日总结"></a>今日总结</h2><h3 id="高数"><a href="#高数" class="headerlink" title="高数"></a>高数</h3><span id="more"></span><p>复习了行列式以及矩阵逆矩阵的定义以及计算，熟悉了行列式各种形式的计算方法，还有矩阵逆矩阵的求法。<br>矩阵开始就会有很多的公式需要记忆，重点是围绕逆矩阵展开，例如求逆矩阵可以使用“伴随矩阵法“、”初等变换矩阵法“，然后伴随矩阵和矩阵以及矩阵的逆矩阵还有矩阵的行列式有大量的公式和定理定义。如：一个数乘上一个n阶矩阵等于一个数的n次方乘以他的行列式，<code>A*/|A|=A^-1</code>(很重要)等等。都需要练习还有背诵去加深印象。</p><h3 id="英语"><a href="#英语" class="headerlink" title="英语"></a>英语</h3><p>今天翻译了一篇文章，虽然文章不难，但是搞懂了所有单词意思，能够翻译出全文的大致意思。<br>重点单词：<br>entile、instinct、zeal、subsidise、indulgent、preside、prescription、prescribe、negligible、initiate、ingenious、eligible</p><p>单词不多，也不难，但都是基础单词，需要记忆</p><h3 id="专业课"><a href="#专业课" class="headerlink" title="专业课"></a>专业课</h3><p>今天学习了操作系统的I/O系统，I/O设备的分类，依靠各种特性的分类，I/O控制器的组成还有原理，纯记忆还有理解背诵即可。<br>还有I/O系统的控制方式，比较重要。</p><ol><li>程序直接控制方式：CPU发出一条I/O指令后，等待该条指令完成后再执行其他操作，以单个字为操作单位，CPU干预程度极高，且大部分时间处在忙等状态，效率极低。</li><li>中断驱动方式：与上面不同的是，引入了中断机制，发出I/O指令后可以去干其他事，等到完成后会向CPU发出中断指令，但还是以单个字为操作对象，干预程度也很高。</li><li>DMA：加入DMA控制器，CPU只需要将本次I/O要干的事一件一件告诉DMA控制器（本质是将信息放入DMA中的寄存器中）,然后CPU就可以去干其他事了，等待完成后，会向CPU发出中断，CPU干预程度又一次下降，并且可以一次性读多个字，以块为单位与CPU交换数据。</li><li>通道控制：通道就是一个低配版CPU，但是还是要与CPU共享内存。当CPU要执行I/O操作时，只需要从内存中调出通道程序，通道程序会去让通道完成所有的I/O操作，CPU就更少干预了，并且可以以一组块为交换单位，效率更高。</li></ol><h3 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h3><p>今天中午出去陪家人吃了饭，导致下午效率有点低哈哈哈，明天继续努力啊，不管是学习考研还是学习专业知识，都不要浪费自己的时间，将时间有意义化，毕竟我的差距和别人拉开的太大了，加油吧。</p>]]></content>
     
@@ -72,8 +93,10 @@
     
     
     
+    <category term="每日学习总结" scheme="http://example.com/categories/%E6%AF%8F%E6%97%A5%E5%AD%A6%E4%B9%A0%E6%80%BB%E7%BB%93/"/>
     
-    <category term="每日" scheme="http://example.com/tags/%E6%AF%8F%E6%97%A5/"/>
+    
+    <category term="总结" scheme="http://example.com/tags/%E6%80%BB%E7%BB%93/"/>
     
   </entry>
   
@@ -93,23 +116,6 @@
     
     
     <category term="技术" scheme="http://example.com/tags/%E6%8A%80%E6%9C%AF/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Hello World</title>
-    <link href="http://example.com/2021/08/16/hello-world/"/>
-    <id>http://example.com/2021/08/16/hello-world/</id>
-    <published>2021-08-16T09:16:25.868Z</published>
-    <updated>2021-08-21T14:57:37.257Z</updated>
-    
-    <content type="html"><![CDATA[<p>Welcome to [Hexo]</p><span id="more"></span><p>(<a href="https://hexo.io/">https://hexo.io/</a>)! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
-    
-    
-    <summary type="html">&lt;p&gt;Welcome to [Hexo]&lt;/p&gt;</summary>
-    
-    
-    
     
   </entry>
   
