@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2021-08-23T15:52:31.675Z</updated>
+  <updated>2021-08-23T15:53:16.704Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -21,15 +21,12 @@
     <link href="http://example.com/2021/08/23/8%E6%9C%8823%E6%97%A5%E5%AD%A6%E4%B9%A0%E6%80%BB%E7%BB%93/"/>
     <id>http://example.com/2021/08/23/8%E6%9C%8823%E6%97%A5%E5%AD%A6%E4%B9%A0%E6%80%BB%E7%BB%93/</id>
     <published>2021-08-23T14:19:41.000Z</published>
-    <updated>2021-08-23T15:52:31.675Z</updated>
+    <updated>2021-08-23T15:53:16.704Z</updated>
     
-    <content type="html"><![CDATA[<h2 id="今日总结"><a href="#今日总结" class="headerlink" title="今日总结"></a>今日总结</h2><h2 id="高数"><a href="#高数" class="headerlink" title="高数"></a>高数</h2><p>线性代数矩阵刷选择题</p><ol><li>矩阵乘法不能交换次序</li><li>矩阵若秩不满，则行列式等于0；反之，若满秩，则行列式不等于0</li></ol><h2 id="英语"><a href="#英语" class="headerlink" title="英语"></a>英语</h2><p>翻译英语课文一篇，总结单词与翻译语法<br>notion,elevate,compliance,revise,sanction,adornment,inherent,intangible,hint,arbiter,tape,uplifting,incite,parliament</p><h2 id="专业课"><a href="#专业课" class="headerlink" title="专业课"></a>专业课</h2><p>学习了TCP协议的连接控制：建立连接（三次握手），释放连接（四次握手）。TCP的流量管理（ack,rwnd剩余可以接收的大小,以此来限制发送方不要发送而太快），拥塞管理（慢开始，快重传，快恢复）</p><ol><li><p>三次握手：第一次发送方申请建立连接，SYN=1，seq=x;第二次接收方向发送方发送确认申请连接，SYN=1，ACK=1,seq=y,ack=x+1(确认收到x号请求，并且期望收到序号为x+1的字段)；第三次发送方确认接收方的确认报文，ACK=1，seq=x+1,ack=y+1(确认收到y号字段请求，并且期望收到序号为y+1的字段)<br>为什么是三次：两次握手的话当接收方向发送发发送确认报文，如果途中第二个报文丢失，接收方已经准备可以接受，但是发送方却不知道接收方可以接受，故一直等待不能开始发送。通俗来讲，就是要发送方向接收方申请建立连接，接收方告诉发送方我可以开始接受，然后发送方再一次告诉接收方我要开始发送了，共三次“握手”。</p></li><li><p>四次握手：发送方向接收方发送信息：我已经发送完了（FIN=1，ack=u）,接收方收到消息，告诉发送方收到（ACK=1，ack=u+1），此时发送方的连接可以断开。等待接收方向发送方发送完数据之后，向发送方发送结束报文，告诉发送方我已经把数据发送完了（FIN=1,ack依然是u+1），发送方收到后，等待2MSL，向接收方发送确认报文：我已收到。此时双方的连接完全结束。</p></li><li><p>流量管理：ARQ，停止等待协议，选择重传协议…与之前数据链路层所学的知识相差无异。（累计确认等等名词需要好好复习巩固）</p></li><li><p>拥塞控制：发送窗口，拥塞窗口，网络拥塞阈值<br>慢开始：初始发送窗口大小为1，当发送文件数小于等于阈值时，每接收到一批发送的所有确认报文后，发送窗口大小*2；以此反复，直到发送文件数到达阈值，开始每次确认发送完一批，发送窗口大小执行加法，每次增加一个大小。当网络开始拥塞时，发送窗口重新设置为1，阈值大小减小一半，然后重新开始计算。没到阈值窗口大小 *2，到达阈值后窗口大小每次加1.</p></li></ol><p>快重传：当发送方连续三次收到同一个确认报文时，直接开始重传，而不用等待重传计时器，从而达到“快”的重传效率。</p><p>快恢复：与慢开始一致，但是当网络拥塞时，发送窗口大小不降为1，而是降到阈值1/2后的位置，然后每一次接收后窗口大小加1,意味快速“恢复”。</p>]]></content>
+    <content type="html"><![CDATA[<h2 id="今日总结"><a href="#今日总结" class="headerlink" title="今日总结"></a>今日总结</h2><span id="more"></span><h2 id="高数"><a href="#高数" class="headerlink" title="高数"></a>高数</h2><p>线性代数矩阵刷选择题</p><ol><li>矩阵乘法不能交换次序</li><li>矩阵若秩不满，则行列式等于0；反之，若满秩，则行列式不等于0</li></ol><h2 id="英语"><a href="#英语" class="headerlink" title="英语"></a>英语</h2><p>翻译英语课文一篇，总结单词与翻译语法<br>notion,elevate,compliance,revise,sanction,adornment,inherent,intangible,hint,arbiter,tape,uplifting,incite,parliament</p><h2 id="专业课"><a href="#专业课" class="headerlink" title="专业课"></a>专业课</h2><p>学习了TCP协议的连接控制：建立连接（三次握手），释放连接（四次握手）。TCP的流量管理（ack,rwnd剩余可以接收的大小,以此来限制发送方不要发送而太快），拥塞管理（慢开始，快重传，快恢复）</p><ol><li><p>三次握手：第一次发送方申请建立连接，SYN=1，seq=x;第二次接收方向发送方发送确认申请连接，SYN=1，ACK=1,seq=y,ack=x+1(确认收到x号请求，并且期望收到序号为x+1的字段)；第三次发送方确认接收方的确认报文，ACK=1，seq=x+1,ack=y+1(确认收到y号字段请求，并且期望收到序号为y+1的字段)<br>为什么是三次：两次握手的话当接收方向发送发发送确认报文，如果途中第二个报文丢失，接收方已经准备可以接受，但是发送方却不知道接收方可以接受，故一直等待不能开始发送。通俗来讲，就是要发送方向接收方申请建立连接，接收方告诉发送方我可以开始接受，然后发送方再一次告诉接收方我要开始发送了，共三次“握手”。</p></li><li><p>四次握手：发送方向接收方发送信息：我已经发送完了（FIN=1，ack=u）,接收方收到消息，告诉发送方收到（ACK=1，ack=u+1），此时发送方的连接可以断开。等待接收方向发送方发送完数据之后，向发送方发送结束报文，告诉发送方我已经把数据发送完了（FIN=1,ack依然是u+1），发送方收到后，等待2MSL，向接收方发送确认报文：我已收到。此时双方的连接完全结束。</p></li><li><p>流量管理：ARQ，停止等待协议，选择重传协议…与之前数据链路层所学的知识相差无异。（累计确认等等名词需要好好复习巩固）</p></li><li><p>拥塞控制：发送窗口，拥塞窗口，网络拥塞阈值<br>慢开始：初始发送窗口大小为1，当发送文件数小于等于阈值时，每接收到一批发送的所有确认报文后，发送窗口大小*2；以此反复，直到发送文件数到达阈值，开始每次确认发送完一批，发送窗口大小执行加法，每次增加一个大小。当网络开始拥塞时，发送窗口重新设置为1，阈值大小减小一半，然后重新开始计算。没到阈值窗口大小 *2，到达阈值后窗口大小每次加1.</p></li></ol><p>快重传：当发送方连续三次收到同一个确认报文时，直接开始重传，而不用等待重传计时器，从而达到“快”的重传效率。</p><p>快恢复：与慢开始一致，但是当网络拥塞时，发送窗口大小不降为1，而是降到阈值1/2后的位置，然后每一次接收后窗口大小加1,意味快速“恢复”。</p>]]></content>
     
     
-      
-      
-    <summary type="html">&lt;h2 id=&quot;今日总结&quot;&gt;&lt;a href=&quot;#今日总结&quot; class=&quot;headerlink&quot; title=&quot;今日总结&quot;&gt;&lt;/a&gt;今日总结&lt;/h2&gt;&lt;h2 id=&quot;高数&quot;&gt;&lt;a href=&quot;#高数&quot; class=&quot;headerlink&quot; title=&quot;高数&quot;&gt;&lt;/a&gt;高数&lt;/h</summary>
-      
+    <summary type="html">&lt;h2 id=&quot;今日总结&quot;&gt;&lt;a href=&quot;#今日总结&quot; class=&quot;headerlink&quot; title=&quot;今日总结&quot;&gt;&lt;/a&gt;今日总结&lt;/h2&gt;</summary>
     
     
     
