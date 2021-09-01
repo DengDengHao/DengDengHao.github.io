@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2021-08-24T16:08:00.763Z</updated>
+  <updated>2021-09-01T16:01:55.309Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -15,6 +15,27 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>9月1日学习总结</title>
+    <link href="http://example.com/2021/09/01/9%E6%9C%881%E6%97%A5%E5%AD%A6%E4%B9%A0%E6%80%BB%E7%BB%93/"/>
+    <id>http://example.com/2021/09/01/9%E6%9C%881%E6%97%A5%E5%AD%A6%E4%B9%A0%E6%80%BB%E7%BB%93/</id>
+    <published>2021-09-01T15:24:42.000Z</published>
+    <updated>2021-09-01T16:01:55.309Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="今日总结"><a href="#今日总结" class="headerlink" title="今日总结"></a>今日总结</h2><span id="more"></span><p>前几天停止学习几天，状态下降，很难再进入高效学习状态。这几天主要任务就是重新进入之前的学习状态，管住自己、关注自己的心。</p><h2 id="专业课"><a href="#专业课" class="headerlink" title="专业课"></a>专业课</h2><p>今天学习完了计算机网络第一轮复习最后一章应用层的两个模型（C/S模型和P2P模型）<br><code>C/S模型是用户端加服务端，P2P是各个主机作为用户端以及服务端</code><br>DNS（C/S）<br><code>域名解析系统：从右至左顶级域名、二级。。。</code><br><code>DNS域名服务器比较重要，与主机端最近的是本地域名服务器，每次主机发送DNS请求都是第一个查询本地域名服务器。其次是根域名服务器，下面管理着对应的顶级域名服务器，再下层就是权限域名服务器，这个时候就解析了想要的域名</code><br>DNS查询有两种方式：</p><ol><li>迭代查询<br>主机向本地服务器发送要解析的域名，然后由本地服务器向根域名服务器查询，根域名服务器再告诉本地，本地再去找顶级等等。总结就是全程都由本地域名服务器去查询，简称靠自己。</li><li>递归查询<br>主机向本地域名服务器发送请求，本地向根域名服务器发送请求，根再接手向顶级域名服务器发送查询等等。依次将查找的任务交给下一级域名服务器，简称靠别人去查。</li></ol><p>FTP（C/S）<br>TCP连接，控制进程负责传送请求，数据传送进程负责传送文件。控制进程会保持一直打开，数据传送进程在传送完文件后便关闭。</p><p>电子邮件（C/S）<br>SMTP用于发送；POP3用于提取文件。</p><p>www和HTTP<br>万维网：使用URL来标志WWW上的各种HTML文件<br>HTTP：超文本传送协议，传送HTML文件从服务器至用户<br>还不是学习很深刻。。。仅局限与了解。。。还会继续学习！</p>]]></content>
+    
+    
+    <summary type="html">&lt;h2 id=&quot;今日总结&quot;&gt;&lt;a href=&quot;#今日总结&quot; class=&quot;headerlink&quot; title=&quot;今日总结&quot;&gt;&lt;/a&gt;今日总结&lt;/h2&gt;</summary>
+    
+    
+    
+    <category term="每日学习总结" scheme="http://example.com/categories/%E6%AF%8F%E6%97%A5%E5%AD%A6%E4%B9%A0%E6%80%BB%E7%BB%93/"/>
+    
+    
+    <category term="总结" scheme="http://example.com/tags/%E6%80%BB%E7%BB%93/"/>
+    
+  </entry>
   
   <entry>
     <title>8月24日学习总结</title>
