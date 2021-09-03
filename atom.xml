@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2021-09-02T16:09:20.288Z</updated>
+  <updated>2021-09-03T16:12:54.234Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -15,6 +15,27 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>9月3日学习总结</title>
+    <link href="http://example.com/2021/09/03/9%E6%9C%883%E6%97%A5%E5%AD%A6%E4%B9%A0%E6%80%BB%E7%BB%93/"/>
+    <id>http://example.com/2021/09/03/9%E6%9C%883%E6%97%A5%E5%AD%A6%E4%B9%A0%E6%80%BB%E7%BB%93/</id>
+    <published>2021-09-03T15:19:58.000Z</published>
+    <updated>2021-09-03T16:12:54.234Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="今日总结"><a href="#今日总结" class="headerlink" title="今日总结"></a>今日总结</h2><span id="more"></span><h2 id="高数"><a href="#高数" class="headerlink" title="高数"></a>高数</h2><p>复习了线性方程组的齐次性还有非齐次性的解法。比较重要的是基础解系S=n-r。<br>以及对应是否有解的条件：</p><ol><li>齐次型线性方程组有唯一解且为零解条件：系数矩阵满秩，系数行列式不得0.有无数解条件：不满秩，系数行列式得0.</li><li>非齐次性线性方程组有唯一解条件：r（A）=r(A|B)=n系数矩阵满秩，系数行列式不得零。有无数解条件：r（A）=r(A|B)&lt; n.无解条件r（A）&lt; r(A|B).<br>系数矩阵其实就相当于方程，齐次非齐次就相当于增广矩阵右侧是否是0或者非0数，所以同一行可以乘或除一个数而不影响，可以方便计算。</li></ol><h2 id="英语"><a href="#英语" class="headerlink" title="英语"></a>英语</h2><p>翻译两篇课文</p><h2 id="政治"><a href="#政治" class="headerlink" title="政治"></a>政治</h2><p>学习了矛盾的同一性斗争性，特殊性与普遍性</p><h2 id="专业课"><a href="#专业课" class="headerlink" title="专业课"></a>专业课</h2><p>复习了弗洛伊德算法，用于算有向带权图某点到其余各点的最短路径。主要采用了动态规划思想、邻接矩阵数据结构。代码实现非常简单，主要思想是在知道相邻连通节点权值后，A到B是否可以通过k号顶点，可以更短到达。如果更短，则更新邻接矩阵，否则不做处理。这就要用到动态规划思想，A到k的距离再加上k到B的距离必须是之前以及用相同算法处理算出已经是最短的距离。代码实现只要三层FOR循环，时间复杂度为O（n2）.</p><p>拓扑排序AOV网：有向无环图，顶点代表活动，边无权值，边代表活动之前的前后联系。没有当前节点完成就无法完成指向的节点。拓扑排序思想为选择入度为0的点放入栈中，然后将其指向的所有节点入度-1，代表把指向其所有节点的边删掉。然后将入度为零的点再放入栈中，如此循环，直到栈中无入度为0的节点。拓扑排序可能不唯一。</p><p>AOE网关键路径算法：AOE网边表示活动，顶点表示事件，为一瞬间的完成的事，边代表活动持续时间。关键路径算法：</p><ol><li>计算事件（顶点）最早发生时间，第一个顶点（事件0）最早发生时间设为0，顶点A指向的下一个顶点B，B的最早发生时间大小为A的最早发生时间+AB边的权值（活动持续时间时间）。如果一个顶点有两条边指向，就要取max(A的最早发生时间+边的权值)取最大的值为当前顶点的最早发生时间。</li><li>计算事件（顶点）最迟发生时间，将各顶点逆序排列，最后一个事件最迟发生时间为最后一个顶点的最早发生时间。顶点B指向顶点A，B的最迟发生时间为A的最早发生时间-AB边的权值（持续时间）。若B有两条边指出，则取min（A的最早发生时间-AB边的权值）最迟发生时间。</li><li>活动（边）最早发生时间就为<strong>产生</strong>这个事件的顶点的最早发生时间。</li><li>活动（边）最迟发生时间就用该边指向的顶点的最迟发生时间-该边的权值（持续时间）</li><li>计算时间余量，活动（边）的最迟发生时间-活动（边）的最早发生时间，等于0的即为关键路径。表示这条路径一刻也不能拖延！！</li></ol>]]></content>
+    
+    
+    <summary type="html">&lt;h2 id=&quot;今日总结&quot;&gt;&lt;a href=&quot;#今日总结&quot; class=&quot;headerlink&quot; title=&quot;今日总结&quot;&gt;&lt;/a&gt;今日总结&lt;/h2&gt;</summary>
+    
+    
+    
+    <category term="每日学习总结" scheme="http://example.com/categories/%E6%AF%8F%E6%97%A5%E5%AD%A6%E4%B9%A0%E6%80%BB%E7%BB%93/"/>
+    
+    
+    <category term="总结" scheme="http://example.com/tags/%E6%80%BB%E7%BB%93/"/>
+    
+  </entry>
   
   <entry>
     <title>9月2日学习总结</title>
