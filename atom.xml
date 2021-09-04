@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2021-09-03T16:12:54.234Z</updated>
+  <updated>2021-09-04T15:14:15.952Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -15,6 +15,27 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>9月4日学习总结</title>
+    <link href="http://example.com/2021/09/04/9%E6%9C%884%E6%97%A5%E5%AD%A6%E4%B9%A0%E6%80%BB%E7%BB%93/"/>
+    <id>http://example.com/2021/09/04/9%E6%9C%884%E6%97%A5%E5%AD%A6%E4%B9%A0%E6%80%BB%E7%BB%93/</id>
+    <published>2021-09-04T14:47:19.000Z</published>
+    <updated>2021-09-04T15:14:15.952Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="今日总结"><a href="#今日总结" class="headerlink" title="今日总结"></a>今日总结</h2><span id="more"></span><h2 id="高数"><a href="#高数" class="headerlink" title="高数"></a>高数</h2><p>今天理解了为什么“2. 当X=A^-1*B时，将A与B拼接，（A|B），将左边 行列式化成标准式，右边行列式即为X”。这其实就是一个非齐次线性方程组只不过解的形式是一个矩阵。A * X=B，，解出X。在非齐次方程组中，我们会把解的列向量拼接上系数矩阵，形成增广矩阵，然后化阶梯型求秩计算解。如果有解，先求A *X=0的解系，然后再加上特解就是通解了。当所求的X为一个矩阵时也一样，只不过右侧解的列向量有n列，通解形式就有n个任意常数乘对应解系再加上特解。<br>当右侧解不是一列而是一个矩阵时，就相当于上升了一个维度。现在还不能很清楚表达出意思出来，还需要多研究一下线性方程组界的结构。但是今天的学习让我理解了原来矩阵相乘、矩阵拼接都可以理解成一个线性方程组乘X的形式，而不是一个简简单单无任何含义的矩阵。</p><h2 id="英语"><a href="#英语" class="headerlink" title="英语"></a>英语</h2><p>翻译课文练习</p><h2 id="政治"><a href="#政治" class="headerlink" title="政治"></a>政治</h2><p>学习了量变质变定律，也领悟到了一些道理：持续的量变才会引起质变，我现在做的事不就是在慢慢的积累量变吗？<br>——“年轻人在30岁之前不要那么想着赚钱，要注重积累”。</p><h2 id="专业课"><a href="#专业课" class="headerlink" title="专业课"></a>专业课</h2><p>计算机组成原理I/O系统，大多都是和操作系统所学的内容交叉：中断、DMA、通道。然后就学习了I/O设备，比较重要是显示器的显存计算：分辨率*灰度级位数。（显存中存放的是每个像素点的灰度级二进制数）</p>]]></content>
+    
+    
+    <summary type="html">&lt;h2 id=&quot;今日总结&quot;&gt;&lt;a href=&quot;#今日总结&quot; class=&quot;headerlink&quot; title=&quot;今日总结&quot;&gt;&lt;/a&gt;今日总结&lt;/h2&gt;</summary>
+    
+    
+    
+    <category term="每日学习总结" scheme="http://example.com/categories/%E6%AF%8F%E6%97%A5%E5%AD%A6%E4%B9%A0%E6%80%BB%E7%BB%93/"/>
+    
+    
+    <category term="总结" scheme="http://example.com/tags/%E6%80%BB%E7%BB%93/"/>
+    
+  </entry>
   
   <entry>
     <title>9月3日学习总结</title>
