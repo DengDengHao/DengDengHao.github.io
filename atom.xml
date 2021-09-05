@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2021-09-04T15:14:15.952Z</updated>
+  <updated>2021-09-05T15:10:15.477Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -15,6 +15,27 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>9月5日学习总结</title>
+    <link href="http://example.com/2021/09/05/9%E6%9C%885%E6%97%A5%E5%AD%A6%E4%B9%A0%E6%80%BB%E7%BB%93/"/>
+    <id>http://example.com/2021/09/05/9%E6%9C%885%E6%97%A5%E5%AD%A6%E4%B9%A0%E6%80%BB%E7%BB%93/</id>
+    <published>2021-09-05T14:26:41.000Z</published>
+    <updated>2021-09-05T15:10:15.477Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="今日总结"><a href="#今日总结" class="headerlink" title="今日总结"></a>今日总结</h2><span id="more"></span><h2 id="高数"><a href="#高数" class="headerlink" title="高数"></a>高数</h2><p>今天复习了两个方程组的同解与共解问题<br><strong>共解</strong><br>两个方程组的公共解有三种方法可以求：</p><ol><li>联立法 将AB两方程的系数矩阵上下拼接成大矩阵，然后化阶梯求解（用求方程组通解方式一样求），求出的通解就是共解</li><li>k1 *t1+k2 *t2 =T,T是由k1和k2组成的解向量（t1和t2已知）。将T带入要求的方程中，求出k1与k2的关系，即k1=n * k2，代回T，提取出公共任意常数，结果即为共解。（一般该方法用于给出一个方程组和一组解向量，问是否有公共解题型）</li><li>k1 *t1+k2 *t2=l1 *c1+l2 *c2.联立，得到k1,k2,l1,l2的关系（t1,t2,c1,c2为已知解向量，将各常数带入，同一行的参数可以得到一个等式，即关系），代回k1 *t1+k2 *t2=l1 *c1+l2 *c2化简至只剩一个解向量，即为公共解。</li></ol><p><strong>同解</strong><br>顾名思义即为两个方程有共同的解。<br>很简单，算出其中一个方程组的解，代入另一个方程也同样满足。</p><h2 id="英语"><a href="#英语" class="headerlink" title="英语"></a>英语</h2><p>写了四篇课文，单词虽然很多都认识了，但是做题还不够理想。。。</p><h2 id="政治"><a href="#政治" class="headerlink" title="政治"></a>政治</h2><p>学习了否定之否定定律（前进性与曲折性的统一；前途是光明的，道路是曲折的），以及客观辩证法与主观辩证法</p><h2 id="专业课"><a href="#专业课" class="headerlink" title="专业课"></a>专业课</h2><p>学习了I/O控制器的结构，功能（1. 选择设备 2.传送命令 3.传送数据 4.反应I/O工作状态），CPU同外设之间信息传送实质是对接口中某些寄存器（或端口）进行读写。<br>内部接口并行传输，外部接口可以进行串/并转化。<br>还学习了I/O端口。接口包括端口以及控制逻辑。端口编制方式有统一编制（在储存空间主存中划分一部分给I/O设备，当贮存访问这部分范围时，就是在访问主存）优点是无需专用的I/O指令，但需要占用内存储存空间。不统一编制，地址与储存器地址分开，但需要单独I/O指令。<br>最后一部分是I/O方式，主要包括程序查询方式，程序中断方式，DMA方式，这些方式在操作系统中有学过，但是在计组中会有新计算题，需要留意与练习。</p>]]></content>
+    
+    
+    <summary type="html">&lt;h2 id=&quot;今日总结&quot;&gt;&lt;a href=&quot;#今日总结&quot; class=&quot;headerlink&quot; title=&quot;今日总结&quot;&gt;&lt;/a&gt;今日总结&lt;/h2&gt;</summary>
+    
+    
+    
+    <category term="每日学习总结" scheme="http://example.com/categories/%E6%AF%8F%E6%97%A5%E5%AD%A6%E4%B9%A0%E6%80%BB%E7%BB%93/"/>
+    
+    
+    <category term="总结" scheme="http://example.com/tags/%E6%80%BB%E7%BB%93/"/>
+    
+  </entry>
   
   <entry>
     <title>9月4日学习总结</title>
