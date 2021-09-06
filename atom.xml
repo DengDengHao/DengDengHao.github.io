@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2021-09-05T15:10:15.477Z</updated>
+  <updated>2021-09-06T15:27:19.078Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -15,6 +15,27 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>9月6日学习总结</title>
+    <link href="http://example.com/2021/09/06/9%E6%9C%886%E6%97%A5%E5%AD%A6%E4%B9%A0%E6%80%BB%E7%BB%93/"/>
+    <id>http://example.com/2021/09/06/9%E6%9C%886%E6%97%A5%E5%AD%A6%E4%B9%A0%E6%80%BB%E7%BB%93/</id>
+    <published>2021-09-06T15:09:51.000Z</published>
+    <updated>2021-09-06T15:27:19.078Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="今日总结"><a href="#今日总结" class="headerlink" title="今日总结"></a>今日总结</h2><span id="more"></span><h2 id="高数"><a href="#高数" class="headerlink" title="高数"></a>高数</h2><p>很遗憾毫无效率。。。希望继续加油</p><h2 id="英语"><a href="#英语" class="headerlink" title="英语"></a>英语</h2><p>翻译课文</p><h2 id="政治"><a href="#政治" class="headerlink" title="政治"></a>政治</h2><p>刷题</p><h2 id="专业课"><a href="#专业课" class="headerlink" title="专业课"></a>专业课</h2><p>今天结束了计组I/O方式的程序中断方式以及DMA方式。<br>程序中断方式：<br>当设备发起中断请求时先由硬件完成中断隐指令（软件无法保存PC中的当前程序的地址，所以只能由硬件来完成保存PC中地址的任务）：</p><ol><li>关中断（因为保存PC的任务不能被中断，所以要先关中断）</li><li>保存断点（保存PC）</li><li>引出中断服务程序（将中断服务程序的地址放入PC中）<br>随后执行中断服务程序：</li><li>保护现场</li><li>设备服务</li><li>恢复现场</li><li>开中断</li><li>中断返回</li></ol><p>DMA：<br>在DMA方式中，当I/O设备需要进行数据传送时，通过DMA控制器向CPU提出DMA传送请求，CPU响应后让出系统总线，由DMA控制器接管总线进行数据传送（CPU并不参加数据传送，进一步解放CPU！）</p><ol><li>预处理（CPU负责）</li><li>数据传送（DMA控制器负责）<br>一个字一个字为单位，当传送完毕时WC溢出，即向CPU发出中断请求</li><li>后处理（CPU负责）<br>有很多计算题，需要理解各方式过程。<br>ps:数据传输率n MB/s，每次传输m B，则每秒有 n* 10 ^ 6 / m 个传输次数，即为 n* 10^6/m次中断。</li></ol>]]></content>
+    
+    
+    <summary type="html">&lt;h2 id=&quot;今日总结&quot;&gt;&lt;a href=&quot;#今日总结&quot; class=&quot;headerlink&quot; title=&quot;今日总结&quot;&gt;&lt;/a&gt;今日总结&lt;/h2&gt;</summary>
+    
+    
+    
+    <category term="每日学习总结" scheme="http://example.com/categories/%E6%AF%8F%E6%97%A5%E5%AD%A6%E4%B9%A0%E6%80%BB%E7%BB%93/"/>
+    
+    
+    <category term="总结" scheme="http://example.com/tags/%E6%80%BB%E7%BB%93/"/>
+    
+  </entry>
   
   <entry>
     <title>9月5日学习总结</title>
