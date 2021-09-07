@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2021-09-06T15:27:19.078Z</updated>
+  <updated>2021-09-07T16:04:37.066Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -15,6 +15,27 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>9月7号学习总结</title>
+    <link href="http://example.com/2021/09/07/9%E6%9C%887%E5%8F%B7%E5%AD%A6%E4%B9%A0%E6%80%BB%E7%BB%93/"/>
+    <id>http://example.com/2021/09/07/9%E6%9C%887%E5%8F%B7%E5%AD%A6%E4%B9%A0%E6%80%BB%E7%BB%93/</id>
+    <published>2021-09-07T14:53:53.000Z</published>
+    <updated>2021-09-07T16:04:37.066Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="今日总结"><a href="#今日总结" class="headerlink" title="今日总结"></a>今日总结</h2><span id="more"></span><h2 id="高数"><a href="#高数" class="headerlink" title="高数"></a>高数</h2><p>今天弄懂了抽象线性方程组的部分习题。主要是抽象性的方程组将解带入可以得到的解形式，通过解的线性组合可以得到A * x=0或者A * x=b的解。主要理解了如何带入。</p><h2 id="英语"><a href="#英语" class="headerlink" title="英语"></a>英语</h2><p>翻译课文</p><h2 id="政治"><a href="#政治" class="headerlink" title="政治"></a>政治</h2><p>学习了实践第一节内容。了解了没有实践就无法认识一件事或物。</p><h2 id="专业课"><a href="#专业课" class="headerlink" title="专业课"></a>专业课</h2><p>学习了数据结构的倒数第二章，排序。主要学习了插入排序、折半插入排序、希尔排序、冒泡排序、快速排序。</p><ol><li><p>插入排序<br>插入排序每次从待排数组的第二个（下标为1）为待排数字，然后待排数字会和他左边的数据进行比较，如果左边数字比他大，则和左边数字交换位置，直到交换到左边数字小于待排数字为止。每次待排数字的左边所有数据都是以及排序好的，所以新的待排数字只要在左边已经排序的顺序中找到他自己的位置即可。</p></li><li><p>折半插入排序<br>该排序为插入排序的优化，引入了low与high，最开始low指向已排序好的顺序队首，high指向已排序好的顺序队尾，mid为两者下标之和除2。当mid指向的数字比待排数字大时，则将high移动到mid-1的位置，mid为两者下标之和除2；当mid指向数字比待排数字小时，将low移动到mid+1的位置，mid为两者下标之和除2。直到low&gt;high,算法结束。需要注意的是，当mid等于待排元素时，应当将low=mid+1，以保证稳定性。如果high=mid-1,则待排元素会跑到相同元素的左边（原本待排元素应该在相同元素的右边），失去了稳定性。</p></li><li><p>希尔排序<br>又称缩小增量排序。以不同增量，将待排数组分成若干子列，如增量为3，{1，4，7}为一子列，{2，5}为一子列，{3，6}为一子列，然后对每一个子列进行插入排序。结束一轮后缩小增量，重复过程。直到增量为1，即为最后一次排序。</p></li><li><p>冒泡排序<br>看一遍过程便非常好理解。相当于有一个可以容纳两个元素的框框，每一次排序框框内元素都会比较一次大小，交换位置，然后框框就会往右移一格，再次比较。每一次冒泡都会把最大或者最小的一个数移到最右边。</p></li><li><p>快速排序<br>每一趟选择每个子序列的第一个数作为枢轴（中间变量保存），low在子序列的第一个，high在子序列的最后一个。程序开始，high会往左–，直到碰到一个比枢轴小的数字，将这个数字放入low指向的位置，然后low++。然后开始low往右走，直到遇到一个比枢轴大的数，将这个数放入high的位置，然后high++。如此反复，直到low=high。这个时候将枢轴数放入这个位置。左边所有数都比枢轴大，右边所有数都比枢轴小，分为两个子序列。然后对这两个子序列继续进行快速排序，利用了递归算法，直到子序列长度都为1.</p></li></ol>]]></content>
+    
+    
+    <summary type="html">&lt;h2 id=&quot;今日总结&quot;&gt;&lt;a href=&quot;#今日总结&quot; class=&quot;headerlink&quot; title=&quot;今日总结&quot;&gt;&lt;/a&gt;今日总结&lt;/h2&gt;</summary>
+    
+    
+    
+    <category term="每日学习总结" scheme="http://example.com/categories/%E6%AF%8F%E6%97%A5%E5%AD%A6%E4%B9%A0%E6%80%BB%E7%BB%93/"/>
+    
+    
+    <category term="总结" scheme="http://example.com/tags/%E6%80%BB%E7%BB%93/"/>
+    
+  </entry>
   
   <entry>
     <title>9月6日学习总结</title>
