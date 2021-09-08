@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2021-09-07T16:04:37.066Z</updated>
+  <updated>2021-09-08T15:11:15.738Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -15,6 +15,27 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>9月8日学习总结</title>
+    <link href="http://example.com/2021/09/08/9%E6%9C%888%E6%97%A5%E5%AD%A6%E4%B9%A0%E6%80%BB%E7%BB%93/"/>
+    <id>http://example.com/2021/09/08/9%E6%9C%888%E6%97%A5%E5%AD%A6%E4%B9%A0%E6%80%BB%E7%BB%93/</id>
+    <published>2021-09-08T14:52:22.000Z</published>
+    <updated>2021-09-08T15:11:15.738Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="今日总结"><a href="#今日总结" class="headerlink" title="今日总结"></a>今日总结</h2><span id="more"></span><h2 id="高数"><a href="#高数" class="headerlink" title="高数"></a>高数</h2><p>线性方程组刷题</p><h2 id="英语"><a href="#英语" class="headerlink" title="英语"></a>英语</h2><p>翻译课文</p><h2 id="政治"><a href="#政治" class="headerlink" title="政治"></a>政治</h2><p>刷题</p><h2 id="专业课"><a href="#专业课" class="headerlink" title="专业课"></a>专业课</h2><p>学习了选择排序：简单选择排序、堆排序。选择排序的基本思想就是总是选择最大（小）的数放在第一个，然后以此按照规律排序。<br>堆排序比较重要。堆实质上可以理解为一棵完全二叉树，可以分为大顶堆和小顶堆。大顶堆就是父节点大于左右孩子，对应导出递增序列；小顶堆就是父节点都小于左右孩子，对应导出递减序列。堆排序的算法每一次排序后父节点都是最大（小）的，下一次开始排序前，将这个最大（小）的节点移动到当前最后一个未排序子序列节点处，至此后面的子序列都是排好序的节点序列了。</p>]]></content>
+    
+    
+    <summary type="html">&lt;h2 id=&quot;今日总结&quot;&gt;&lt;a href=&quot;#今日总结&quot; class=&quot;headerlink&quot; title=&quot;今日总结&quot;&gt;&lt;/a&gt;今日总结&lt;/h2&gt;</summary>
+    
+    
+    
+    <category term="每日学习总结" scheme="http://example.com/categories/%E6%AF%8F%E6%97%A5%E5%AD%A6%E4%B9%A0%E6%80%BB%E7%BB%93/"/>
+    
+    
+    <category term="总结" scheme="http://example.com/tags/%E6%80%BB%E7%BB%93/"/>
+    
+  </entry>
   
   <entry>
     <title>9月7号学习总结</title>
