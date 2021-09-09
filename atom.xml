@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2021-09-08T15:11:15.738Z</updated>
+  <updated>2021-09-09T15:25:09.439Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -15,6 +15,27 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>9月9日学习总结</title>
+    <link href="http://example.com/2021/09/09/9%E6%9C%889%E6%97%A5%E5%AD%A6%E4%B9%A0%E6%80%BB%E7%BB%93/"/>
+    <id>http://example.com/2021/09/09/9%E6%9C%889%E6%97%A5%E5%AD%A6%E4%B9%A0%E6%80%BB%E7%BB%93/</id>
+    <published>2021-09-09T15:09:45.000Z</published>
+    <updated>2021-09-09T15:25:09.439Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="今日总结"><a href="#今日总结" class="headerlink" title="今日总结"></a>今日总结</h2><span id="more"></span><h2 id="高数"><a href="#高数" class="headerlink" title="高数"></a>高数</h2><p>刷题。进度很慢。。明天要尽快开始向量组的复习了。</p><h2 id="专业课"><a href="#专业课" class="headerlink" title="专业课"></a>专业课</h2><ol><li>学习了堆的插入与删除。插入：将新插入的元素插入堆的底部，在刚插入的子树根据大（小）顶堆规则与父节点比较，判断是否要上升，即与父节点交换位置。删除：将堆底元素插入到删除的元素位置，根据大（小）顶堆规则新插入的元素和左右孩子比较，判断是否要下沉，即与左右孩子中较大（小）的孩子交换位置。</li><li>学习了二路归并排序。</li></ol><p><strong>归并排序的主要思想是把已经排好序的子序列进行归并。每次选取所有子序列中最小的一个放入新合并的序列中，形成新的有序序列。</strong><br>二路归并排序主要思想是将一个无序序列二等分，low指向队头，high指向队尾，mid指向low+high/2位置。将low到mid看成一个子序列，再将low+1到high看成一个子序列，用这种方法将划分出来的子序列继续按照mid规则划分成左右，直到划分成只有一个元素的子序列（递归），然后返回上一层进行归并排序，最后形成有序序列。归并二路排序本质就是像一颗倒立的完全二叉树，最后划出分出的单个节点就是叶子节点，叶子节点到父节点就是归并过程，根节点就是最后排序出的有序序列。</p>]]></content>
+    
+    
+    <summary type="html">&lt;h2 id=&quot;今日总结&quot;&gt;&lt;a href=&quot;#今日总结&quot; class=&quot;headerlink&quot; title=&quot;今日总结&quot;&gt;&lt;/a&gt;今日总结&lt;/h2&gt;</summary>
+    
+    
+    
+    <category term="每日学习总结" scheme="http://example.com/categories/%E6%AF%8F%E6%97%A5%E5%AD%A6%E4%B9%A0%E6%80%BB%E7%BB%93/"/>
+    
+    
+    <category term="总结" scheme="http://example.com/tags/%E6%80%BB%E7%BB%93/"/>
+    
+  </entry>
   
   <entry>
     <title>9月8日学习总结</title>
