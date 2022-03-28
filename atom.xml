@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2022-03-05T03:32:46.766Z</updated>
+  <updated>2022-03-28T13:53:35.305Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -21,8 +21,15 @@
     <link href="http://example.com/2022/03/05/Vue%E5%AD%A6%E4%B9%A0/"/>
     <id>http://example.com/2022/03/05/Vue%E5%AD%A6%E4%B9%A0/</id>
     <published>2022-03-05T03:32:46.000Z</published>
-    <updated>2022-03-05T03:32:46.766Z</updated>
+    <updated>2022-03-28T13:53:35.305Z</updated>
     
+    <content type="html"><![CDATA[<p>##踩坑太难受了！几天被卡着！赶紧记录一下<br>接口地址没问题，跨域问题也配置了前端代理，但是始终请求URL（<a href="http://localhost:8080/api/login%EF%BC%89%E6%98%BE%E7%A4%BA404%E9%94%99%E8%AF%AF%EF%BC%8C%E6%9C%80%E5%BC%80%E5%A7%8B%E6%88%91%E4%BB%A5%E4%B8%BA%E6%98%AF%E6%88%91%E7%9A%84app.js%E4%B8%AD%E6%8E%A5%E5%8F%A3%E5%86%99%E7%9A%84%E6%9C%89%E9%97%AE%E9%A2%98%EF%BC%8C%E5%8F%8D%E5%A4%8D%E8%B0%83%E8%AF%95%E6%B2%A1%E9%97%AE%E9%A2%98%EF%BC%9B%E7%84%B6%E5%90%8E%E5%8E%BB%E6%89%BE%E8%B7%A8%E5%9F%9F%E7%9A%84%E9%97%AE%E9%A2%98%E3%80%82%E3%80%82%E3%80%82%E4%B9%9F%E6%B2%A1%E6%9C%89%E6%95%88%E6%9E%9C%E3%80%82">http://localhost:8080/api/login）显示404错误，最开始我以为是我的app.js中接口写的有问题，反复调试没问题；然后去找跨域的问题。。。也没有效果。</a><br>终于在网上找到解决方案，在main.js中axios配置位置加上</p><p><code>axios.defaults.headers.post[&#39;Content-Type&#39;] = &#39;application/x-www-form-urlencoded;charset=UTF-8&#39;;</code></p><p>终于问题解决。。。虽然不知道是什么原理，还得继续学习啊！</p><p>重要补充！！！vue.config.js和app.js修改后一定要重新启动对应端口！否则会抽风不生效！</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;##踩坑太难受了！几天被卡着！赶紧记录一下&lt;br&gt;接口地址没问题，跨域问题也配置了前端代理，但是始终请求URL（&lt;a href=&quot;http://localhost:8080/api/login%EF%BC%89%E6%98%BE%E7%A4%BA404%E9%94%99%E</summary>
+      
     
     
     

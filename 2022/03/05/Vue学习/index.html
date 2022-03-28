@@ -20,13 +20,15 @@
         <meta name="keywords" content="hexo,hexo-theme,hexo-blog">
     
     <meta name="description" content="">
-    <meta property="og:type" content="article">
+    <meta name="description" content="##踩坑太难受了！几天被卡着！赶紧记录一下接口地址没问题，跨域问题也配置了前端代理，但是始终请求URL（http:&#x2F;&#x2F;localhost:8080&#x2F;api&#x2F;login）显示404错误，最开始我以为是我的app.js中接口写的有问题，反复调试没问题；然后去找跨域的问题。。。也没有效果。终于在网上找到解决方案，在main.js中axios配置位置加上 axios.defaults.headers.po">
+<meta property="og:type" content="article">
 <meta property="og:title" content="Vue学习">
 <meta property="og:url" content="http://example.com/2022/03/05/Vue%E5%AD%A6%E4%B9%A0/index.html">
 <meta property="og:site_name" content="Hexo">
+<meta property="og:description" content="##踩坑太难受了！几天被卡着！赶紧记录一下接口地址没问题，跨域问题也配置了前端代理，但是始终请求URL（http:&#x2F;&#x2F;localhost:8080&#x2F;api&#x2F;login）显示404错误，最开始我以为是我的app.js中接口写的有问题，反复调试没问题；然后去找跨域的问题。。。也没有效果。终于在网上找到解决方案，在main.js中axios配置位置加上 axios.defaults.headers.po">
 <meta property="og:locale" content="en_US">
 <meta property="article:published_time" content="2022-03-05T03:32:46.000Z">
-<meta property="article:modified_time" content="2022-03-05T03:32:46.766Z">
+<meta property="article:modified_time" content="2022-03-28T13:53:35.305Z">
 <meta property="article:author" content="John Doe">
 <meta name="twitter:card" content="summary">
     <meta http-equiv="Cache-control" content="no-cache">
@@ -327,7 +329,7 @@
                 
                 
                     <div class="post-intro-read">
-                        <span>Word count: <span class="post-count word-count">0</span>Reading time: <span class="post-count reading-time">1 min</span></span>
+                        <span>Word count: <span class="post-count word-count">186</span>Reading time: <span class="post-count reading-time">1 min</span></span>
                     </div>
                 
                 <div class="post-intro-meta">
@@ -488,7 +490,11 @@
             <div class="container container-unloaded">
                 <main class="main post-page">
     <article class="article-entry">
-        
+        <p>##踩坑太难受了！几天被卡着！赶紧记录一下<br>接口地址没问题，跨域问题也配置了前端代理，但是始终请求URL（<a target="_blank" rel="noopener" href="http://localhost:8080/api/login%EF%BC%89%E6%98%BE%E7%A4%BA404%E9%94%99%E8%AF%AF%EF%BC%8C%E6%9C%80%E5%BC%80%E5%A7%8B%E6%88%91%E4%BB%A5%E4%B8%BA%E6%98%AF%E6%88%91%E7%9A%84app.js%E4%B8%AD%E6%8E%A5%E5%8F%A3%E5%86%99%E7%9A%84%E6%9C%89%E9%97%AE%E9%A2%98%EF%BC%8C%E5%8F%8D%E5%A4%8D%E8%B0%83%E8%AF%95%E6%B2%A1%E9%97%AE%E9%A2%98%EF%BC%9B%E7%84%B6%E5%90%8E%E5%8E%BB%E6%89%BE%E8%B7%A8%E5%9F%9F%E7%9A%84%E9%97%AE%E9%A2%98%E3%80%82%E3%80%82%E3%80%82%E4%B9%9F%E6%B2%A1%E6%9C%89%E6%95%88%E6%9E%9C%E3%80%82">http://localhost:8080/api/login）显示404错误，最开始我以为是我的app.js中接口写的有问题，反复调试没问题；然后去找跨域的问题。。。也没有效果。</a><br>终于在网上找到解决方案，在main.js中axios配置位置加上</p>
+<p><code>axios.defaults.headers.post[&#39;Content-Type&#39;] = &#39;application/x-www-form-urlencoded;charset=UTF-8&#39;;</code></p>
+<p>终于问题解决。。。虽然不知道是什么原理，还得继续学习啊！</p>
+<p>重要补充！！！vue.config.js和app.js修改后一定要重新启动对应端口！否则会抽风不生效！</p>
+
     </article>
     <!-- license -->
     
